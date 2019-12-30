@@ -1,0 +1,90 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+li a {
+    float: left;
+    display: block;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a.right {
+    float: right;
+}
+p {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+ul.bottom {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: sans-serif;
+}
+#Australia {
+    display: block;
+    color: rgb(66, 66, 66);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.bottom {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+img {
+    width: 300px; 
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover {
+    cursor: pointer;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+input[type=text] {
+    width:500px;
+    padding: 12px 20px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: rgb(236, 236, 236);
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: 0px solid;
+    color: rgb(104, 104, 104)
+}
+input[type="submit"]:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(218, 218, 218);
+    cursor: pointer;
+}
+div.form {
+    display: block;
+    text-align: center;
+}
+div.searchbox {
+    display: block;
+    text-align: center;
+}
+div.middlethings {
+    padding: 100px 0;
+}
